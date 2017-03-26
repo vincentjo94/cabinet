@@ -30,12 +30,14 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise', '~> 4.2', '>= 4.2.1'
 gem 'simple_form', '~> 3.4'
 gem 'haml', '~> 4.0', '>= 4.0.7'
+gem 'coffee-script-source', '~> 1.12', '>= 1.12.2'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
-
+gem 'bcrypt', '~> 3.1', '>= 3.1.11'
 #gem 'bcrypt', '3.1.11'
-gem 'bcrypt','~>3.1.11'
+#gem 'bcrypt','~>3.1.11'
+#gem 'bcrypt-ruby',:require => 'bcrypt'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -51,3 +53,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+
+# , 'data-turbolinks-track' => true %>
