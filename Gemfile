@@ -56,3 +56,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 # , 'data-turbolinks-track' => true %>
+
+#// Place all the styles related to the docs controller here.
+#// They will automatically be included in application.css.
+#// You can use Sass (SCSS) here: http://sass-lang.com/
